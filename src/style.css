@@ -1,0 +1,51 @@
+/* p{
+    color: red;
+    font-size: larger;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+   
+   
+}
+
+main{
+    /* border: 3px red solid; */
+    text-align: center;
+    padding: 20px;
+    box-shadow:0px 2px 60px whitesmoke;
+    border-radius: 10px;
+    
+  
+}
+
+#btn{
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+   
+}
+
+footer{
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    box-shadow:0px 2px 60px whitesmoke;
+
+
+}
